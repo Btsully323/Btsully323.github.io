@@ -24,16 +24,14 @@ nav {text-align: center;}
 .caption {font-size: small;
     display: right;}
 
-.column {
-    float: left;
-    width: 25%;}
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;}
 
 .contactinfo {text-align: center;}
 .contactinfo2 {text-align: center; font-size: 50px;}
 
 footer {font-size: 20px;text-align: center;}
+
+.row {
+display:flex;
+gap: 25px;
+justify-content: center;
+flex-wrap: wrap;}

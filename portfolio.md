@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-        <div class="row">
+<div class="row">
             <div class="column"><img src="IMG_0401.JPG" width="346" height="230.8" class="me"></div>
             <div class="column"><img src="IMG_0462.JPG" width="346" height="230.8" class="me"></div>
             <div class="column"><img src="IMG_0487.JPG" width="346" height="230.8" class="me"></div>
