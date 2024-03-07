@@ -1,7 +1,9 @@
 ---
 layout: base
 ---
-Hey, My name is Billy and im a 17 year old photographer and videographer -- Basically, i like cameras. Welcome to my website! The purpose of this website is to allow people to have the ability to check out my work. If you enjoy my work and would like to hire me for any photo/video related services, feel free to reach out using the links that I have posted in the "Contact" tab. Never been much for writing, so I think this sums up my introduction. Have a great day!
 
-<img src="photos/IMG_5071.jpg" width="346" height="230.8" class="me">
-<p class="caption"> Here is a picture of my handsome mug. Beautiful right? (That was rhetorical, dont answer that.) Taken by Julian Jarjour.</p>
+<P class="body1">Welcome to Btsully.net, home of my photography company Sullivan Shutter. I’m glad you decided to check out my website! Feel free to look around! To see my photos, look at the ‘PORTFOLIO” part of the website. Look at the ‘ABOUT” part of the website to learn more about me and some frequently asked questions!
+<br>
+<img class="metoo" src="photos/IMG_5071.jpg">
+
+<P class="body1">See that handsome guy? Thats me! Beautiful on the eyes, arnt I? This photo was taken by a good friend of mine, Julian so all credit goes to him. (Why am I putting someone elses photos on MY photography site!)
