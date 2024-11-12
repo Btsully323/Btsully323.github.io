@@ -90,6 +90,7 @@ nav {
 .index {width: 100vw;
 height: 100vh;}
 
+
 body {
     background: url("images/coolbg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
     background-size: 100% 100%;
@@ -131,11 +132,11 @@ main, footer {margin: 1em 15em;}
     color: #ffffff;
 }
 
-.centerimgs {display:inline-block;}
-
 img {
-    width: 32%;
+    flex: 1 1 30%;
+    width: 24em;
     border: solid rgb(29, 41, 88);}
+
 
 .portraitphotos {
     display: flex;
