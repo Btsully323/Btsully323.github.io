@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------- */
+
+@font-face {
+    font-family: 'Matrix';
+    src: url(fonts/matrix-sans.ttf);} 
+
+html {
+    background: black;
+    font-family: 'Matrix';
+      text-shadow: 3px 3px 1px rgb(0, 0, 0);}
+
+.nounderlinelink a {
+    padding-top: .2em;
+    text-decoration:none;}
+
+h1 a {
+    font-style: normal;
+    font-weight:100;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+header {
+    width: 75%;
+    margin: auto;
+    border-bottom: solid rgb(29, 41, 88);
+    border-top: solid rgb(29, 41, 88);
+    background-color: #233270ff;}
+
+nav a {text-decoration:none;
+    color: #ffffff;}
+
+nav {
+    font-style: normal;
+    padding-bottom: .2em;
+    font-weight:200;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: .75em;}
+
+
+
+.index {width: 100vw;
+height: 100vh;}
+
+body {
+    background: url("images/coolbg.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
+    background-size: 100% 100%;
+
+}
+
+    
+main, footer {margin: 1em 15em;}
+
+.Homeintro {
+    text-align: center;
+    line-height: 1.2;
+    margin: 3.5em 3em;
+    color: #ffffff;
+    font-size: 36px;}
+
+.Portfoliocaption {font-style: normal;
+    font-weight:200;
+    margin-top: .5em;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;}
+
+.Landscapeorportraits {
+    display: flex;
+    justify-content: space-around;}
+
+#underline {text-decoration: underline;}
+
+.Landscapeorportraits a {text-decoration:none;
+    color: #ffffff;}
+
+.Welcome {
+    font-style: normal;
+    font-weight:200;
+    margin-top: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.centerimgs {display:inline-block;}
+
+img {
+    width: 32%;
+    border: solid rgb(29, 41, 88);}
+
+.portraitphotos {
+    display: flex;
+    margin: 1em 7em;
+    flex-wrap:wrap;
+    column-gap: .9em;
+    row-gap: .45em;
+}
+
+#footerbottom {
+    position: absolute;
+    right: 0;bottom:0;left:0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    width: 75%;
+    padding: 1em 0%;
+    margin: auto;
+    border-bottom: solid rgb(29, 41, 88);
+    border-top: solid rgb(29, 41, 88);
+    background-color: #233270ff;}
+
+.About {
+    font-weight:200;
+    margin-top: .5em;
+    font-size: 3em;
+    margin: 1em .8em;
+    color: #ffffff;}
+
+.Aboutsub {
+    line-height: 1.2;
+    margin: 2em 1em;
+    color: #ffffff;
+    font-size: 36px;}
+
+.screenie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Aboutcred {line-height: 1.2;
+    margin: .5em 1em;
+    color: #ffffff;
+    font-size: 36px;}
+
+.Aboutimgcap {
+    margin: 1em 15em;
+    color: #ffffff;
+    font-size: 24px;}
+
+footer {
+    right: 0;bottom:0;left:0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    width: 75%;
+    padding: 1em 0%;
+    margin: auto;
+    border-bottom: solid rgb(29, 41, 88);
+    border-top: solid rgb(29, 41, 88);
+    background-color: #233270ff;}
+
+    
